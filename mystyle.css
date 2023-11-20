@@ -1,0 +1,192 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('C:\Users\WORK\Desktop\Antelope.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: rgb(68, 104, 68);
+
+}
+.h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: solid;
+}
+h1{
+    text-align: center;
+    text-emphasis: none;
+}
+.logo img {
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
+}
+.contact-info {
+    text-align: left;
+    position: absolute;
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+.content-container {
+    padding: 20px;
+    max-width: 800px; 
+    width: 100%;
+}
+.vision-motto-mission, .Values {
+    margin-bottom: 20px;
+}
+
+
+
+/* Add styling for the navigation links */
+.nav-link {
+    position: relative;
+}
+
+/* Add a down arrow using ::after pseudo-element */
+.nav-link::after {
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5px; /* Adjust the spacing between the link and the arrow */
+    color: #333; /* Arrow color */
+}
+
+/* Style the dropdown menu (hidden by default) */
+.nav-link ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ddd;
+}
+
+/* Style the dropdown menu items */
+.nav-link ul li {
+    padding: 5px 0;
+}
+
+/* Show the dropdown menu when hovering over the link */
+.nav-link:hover ul {
+    display: block;
+}
+
+.Values ol {
+    padding-left: 0px;
+}
+.navigation {
+    background-color: #f0f0f0;
+    padding: 0px;
+    width: 100%; 
+    text-align: center; 
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block; 
+    margin-right: 10px;
+    padding: 30px;
+    font-size: larger;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    color: blue;
+}
+
+#image-container {
+    display: flex; 
+    overflow-x: auto; 
+}
+
+#image-container img {
+    width: 150px; 
+    height: 150px; 
+    padding: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
+.Description {
+    display: none;
+}
+
+.Description.active {
+    display: block;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dots {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-items {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu:hover .menu-items {
+    display: block;
+}
+
+footer {
+    background-color: #201822; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    text-align: center; /* Center-align the content within the footer */
+    padding: 10px 0; /* Adjust as needed */
+}
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container, .center-container, .right-container {
+    flex-basis: 20%; /* Adjust the width of the containers as needed */
+    text-align: center; /* Center-align the content within the containers */
+    align-items: flex-start;
+}
+
+.center-container {
+    text-align: center;
+
+}
+
+.right-container {
+    text-align: right; /* Right-align the content within the right container */
+}
+
+.right-container a {
+    display: block;
+    margin-bottom: 10px; /* Adjust the spacing between links in the right container */
+}

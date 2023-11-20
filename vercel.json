@@ -1,0 +1,8 @@
+[
+  { "label": "Homepage", "url": "index.html" },
+  { "label": "About Us", "url": "about.html" },
+  { "label": "Blog", "url": "blog.html" },
+  { "label": "Conservation", "url": "conservation.html" },
+  { "label": "Sponsorship", "url": "sponsorship.html" },
+  { "label": "Contact", "url": "contact.html" }
+]
